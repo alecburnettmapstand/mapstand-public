@@ -1,0 +1,143 @@
+@styleTitle 'Vessel Type';
+@styleAbstract '';
+
+
+/* @title SemiSub */
+[vsl_type = 'Semisub']{
+	mark: symbol('square');
+	:mark { fill: #f5a623; 
+          size:10;
+          stroke: #000000;
+  };
+}
+/* @title Jackup */
+[vsl_type = 'Jackup']{
+  mark: symbol('triangle');
+	:mark { fill: #f5a623;
+         size:10;
+         stroke: #000000;
+  
+  };
+}
+/* @title Drillship */
+[vsl_type = 'Drillship']{
+	mark: symbol('arrow');
+	:mark { fill: #f5a623;
+          size:10;
+          stroke: #000000;
+ 
+  };
+}
+/* @title Seismic Vessel */
+[vsl_type = 'Seismic Vessel']{
+	mark: symbol('circle');
+	:mark { fill: #1b13fe;
+          size:10;
+          stroke: #000000;  
+  };
+}
+/* @title Accommodation Rig */
+[vsl_type = 'Accommodation Rig']{
+	mark: symbol('square');
+	:mark { fill: #e4f601;
+          size:10;
+          stroke: #000000;  
+  };
+}
+/* @title Barge */
+[vsl_type = 'Barge']{
+	mark: symbol('circle');
+	:mark { fill: #7ed321;
+          size:10;
+          stroke: #000000;  
+  };
+}
+/* @title psv */
+[vsl_type = 'PSV']{
+	mark: symbol('circle');
+	:mark { fill: #9013fe;
+          size:10;
+          stroke: #000000;  
+  };
+}
+/* @title AHTS */
+[vsl_type = 'AHTS']{
+	mark: symbol('circle');
+	:mark { fill: #9013fe;
+          size:10;
+          stroke: #000000;  
+  };
+}
+/* @title Construction Jackup */
+[vsl_type = 'Construction Jackup']{
+	mark: symbol('triangle');
+	:mark { fill: #000000;
+          size:10;
+          stroke: #000000;  
+  };
+}
+/* @title Construction Support */
+[vsl_type = 'Construction Support']{
+
+	mark: symbol('circle');
+	:mark { fill: #000000;
+          size:10;
+          stroke: #000000;  
+  };
+}
+/* @title Construction Vessel */
+[vsl_type = 'Construction Vessel']{
+	mark: symbol('circle');
+	:mark { fill: #000000;
+          size:10;
+          stroke: #000000;  
+  };
+}
+/* @title Pipelayer */
+[vsl_type = 'Pipelayer: S-Lay']{
+	mark: symbol('arrow');
+	:mark { fill: #000000;
+          size:10;
+          stroke: #000000;  
+  };
+}
+/* @title Construction Vessel */
+[vsl_type = 'Pipelayer: J-Lay']{
+	mark: symbol('arrow');
+	:mark { fill: #000000;
+          size:10;
+          stroke: #000000;  
+  };
+}
+/* @title FPSO */
+[vsl_type = 'FPSO']{
+	mark: symbol('cross');
+	:mark { fill: #ff001f;
+          size:10;
+          stroke: #000000;  
+  };
+}
+/* @title FLNG */
+[vsl_type = 'FLNG']{
+	mark: symbol('cross');
+	:mark { fill: #ff001f;
+          size:10;
+          stroke: #f5a623;  
+  };
+}
+/* @title FSO */
+[vsl_type = 'FSO']{
+	mark: symbol('cross');
+	:mark { fill: #bd10e0;
+          size:10;
+          stroke: #000000;  
+  };
+}
+/* @title FSRU */
+[vsl_type = 'FSRU']{
+	mark: symbol('cross');
+	:mark { fill: #ff001f;
+          size:10;
+          stroke: #50e3c2;  
+  };
+}
